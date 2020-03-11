@@ -24,7 +24,23 @@ namespace C_Sharp_Intermediate_By_Mosh
 
         private static void Exercise()
         {
-            Exercise01();
+            //Exercise01();
+            Exercise02();
+
+
+        }
+
+        private static void Exercise02()
+        {
+            var post = new Classes_02.Exercises.Post("A Post", "A Description.....");
+            post.UpVote();
+            post.UpVote();
+            post.DownVote();
+            post.DownVote();
+            post.UpVote();
+            post.UpVote();
+
+            post.CurrentVote();
         }
 
         private static void Exercise01()

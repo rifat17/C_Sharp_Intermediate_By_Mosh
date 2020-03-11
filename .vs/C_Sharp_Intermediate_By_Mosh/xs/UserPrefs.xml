@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{61C72238-8289-4043-AF39-BB245D5A9BC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Exercise02_v_01.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Post.cs">
     <Files>
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="36" Column="37" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="35" Column="35" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Constructors/Customer.cs" Line="9" Column="28" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/ObjectInitilizers/Person.cs" Line="7" Column="9" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Methods/Point.cs" Line="26" Column="10" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Methods/Calculator.cs" Line="4" Column="18" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Fields/Customer.cs" Line="13" Column="12" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/AccessModifiers/Person.cs" Line="24" Column="50" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Properties/Person.cs" Line="22" Column="10" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Indexres/HttpCookie.cs" Line="9" Column="30" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Exercise01_v_01.cs" Line="42" Column="85" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Exercise02_v_01.cs" Line="6" Column="9" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/StopWatch.cs" Line="4" Column="27" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Post.cs" Line="8" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +17,11 @@
           <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
             <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
               <Node name="Classes_02" expanded="True">
+                <Node name="AccessModifiers" expanded="True" />
                 <Node name="Exercises" expanded="True">
-                  <Node name="Exercise02_v_01.cs" selected="True" />
+                  <Node name="Post.cs" selected="True" />
                 </Node>
+                <Node name="Properties" expanded="True" />
               </Node>
             </Node>
           </Node>
