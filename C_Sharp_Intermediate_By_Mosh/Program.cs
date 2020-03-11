@@ -7,6 +7,9 @@ namespace C_Sharp_Intermediate_By_Mosh
     {
         public static void Main(string[] args)
         {
+            /*
+             * classes
+             */            
             //Constructor();
             //ObjectInitializer();
             //Method();
@@ -14,7 +17,7 @@ namespace C_Sharp_Intermediate_By_Mosh
             //Fields();
             //AccessModifier();
             //Properties();
-            HttpCookieTest();
+            //HttpCookieTest();
 
 
 
