@@ -1,5 +1,4 @@
 ﻿using System;
-using C_Sharp_Intermediate_By_Mosh.Classes_02.Methods;
 
 namespace C_Sharp_Intermediate_By_Mosh
 {
@@ -9,7 +8,7 @@ namespace C_Sharp_Intermediate_By_Mosh
         {
             /*
              * classes
-             */            
+             */
             //Constructor();
             //ObjectInitializer();
             //Method();
@@ -18,9 +17,30 @@ namespace C_Sharp_Intermediate_By_Mosh
             //AccessModifier();
             //Properties();
             //HttpCookieTest();
+            Exercise();
 
 
+        }
 
+        private static void Exercise()
+        {
+            Exercise01();
+        }
+
+        private static void Exercise01()
+        {
+            var stopWatch = new Classes_02.Exercises.StopWatch();
+            try
+            {
+                stopWatch.Start();
+                //stopWatch.Start();
+                stopWatch.Stop();
+                Console.WriteLine(stopWatch.Duaration());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         private static void HttpCookieTest()
@@ -80,7 +100,7 @@ namespace C_Sharp_Intermediate_By_Mosh
 
         private static void UseCalculator()
         {
-            var calculator = new Calculator();
+            var calculator = new Classes_02.Methods.Calculator();
             Console.WriteLine(calculator.Add(1, 2));
             Console.WriteLine(calculator.Add(1, 2, 3, 4, 5));
             Console.WriteLine(calculator.Add(new int[] { 1, 2, 3, 4 }));
@@ -90,7 +110,7 @@ namespace C_Sharp_Intermediate_By_Mosh
         {
             try
             {
-                var point = new Point(10, 20);
+                var point = new Classes_02.Methods.Point(10, 20);
 
                 //point.Move(new Point(40, 60));
                 point.Move(null);

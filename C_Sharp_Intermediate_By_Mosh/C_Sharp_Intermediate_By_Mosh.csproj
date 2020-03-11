@@ -44,6 +44,8 @@
     <Compile Include="Classes_02\AccessModifiers\Person.cs" />
     <Compile Include="Classes_02\Properties\Person.cs" />
     <Compile Include="Classes_02\Indexres\HttpCookie.cs" />
+    <Compile Include="Classes_02\Exercises\StopWatch.cs" />
+    <Compile Include="Classes_02\Exercises\Post.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes_02\" />

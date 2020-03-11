@@ -1,14 +1,14 @@
 ﻿using System;
 namespace C_Sharp_Intermediate_By_Mosh.Classes_02.Exercises
 {
-    public class Exercise01_v_01
+    public class StopWatch
     {
         private bool stopWatchOn;
         private bool stopWatchOff;
         private DateTime _startTime;
         private DateTime _stopTime;
 
-        public Exercise01_v_01()
+        public StopWatch()
         {
             stopWatchOn = false;
             stopWatchOff = true;
