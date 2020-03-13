@@ -1,4 +1,7 @@
 ﻿using System;
+using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Composition;
+using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Inheritance;
+using C_Sharp_Intermediate_By_Mosh.Exercises;
 
 namespace C_Sharp_Intermediate_By_Mosh
 {
@@ -7,7 +10,7 @@ namespace C_Sharp_Intermediate_By_Mosh
         public static void Main(string[] args)
         {
             /*
-             * classes
+             * 02_classes
              */
             //Constructor();
             //ObjectInitializer();
@@ -17,14 +20,58 @@ namespace C_Sharp_Intermediate_By_Mosh
             //AccessModifier();
             //Properties();
             //HttpCookieTest();
-            Exercise();
+            //Exercise();
+
+            /*
+             * 03_Association between classes
+             */
+
+            //Inheritance();
+            //Composition();
+
+            /*
+             * 04_Inheritance Second Pillar of OOP
+             */
+            Exercise_04_stack();
 
 
         }
 
+        private static void Exercise_04_stack()
+        {
+            var stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            //stack.Pop();
+            stack.Push(3);
+
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+
+        }
+
+        private static void Composition()
+        {
+            var dbMigrator = new DbMigrator(new Logger());
+            dbMigrator.Migrate();
+
+            var logger = new Logger();
+            var installer = new Installer(logger);
+            installer.Install();
+
+        }
+
+        private static void Inheritance()
+        {
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
+        }
+
         private static void Exercise()
         {
-            //Exercise01();
+            Exercise01();
             Exercise02();
 
 

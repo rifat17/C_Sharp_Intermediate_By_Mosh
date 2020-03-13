@@ -46,6 +46,12 @@
     <Compile Include="Classes_02\Indexres\HttpCookie.cs" />
     <Compile Include="Classes_02\Exercises\StopWatch.cs" />
     <Compile Include="Classes_02\Exercises\Post.cs" />
+    <Compile Include="AssociationBetweenClasses_03\Inheritance\Presentationobject.cs" />
+    <Compile Include="AssociationBetweenClasses_03\Inheritance\Text.cs" />
+    <Compile Include="AssociationBetweenClasses_03\Composition\Logger.cs" />
+    <Compile Include="AssociationBetweenClasses_03\Composition\DbMigrator.cs" />
+    <Compile Include="AssociationBetweenClasses_03\Composition\Installer.cs" />
+    <Compile Include="04\Exercises\Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes_02\" />
@@ -58,6 +64,11 @@
     <Folder Include="Classes_02\Properties\" />
     <Folder Include="Classes_02\Indexres\" />
     <Folder Include="Classes_02\Exercises\" />
+    <Folder Include="AssociationBetweenClasses_03\" />
+    <Folder Include="AssociationBetweenClasses_03\Inheritance\" />
+    <Folder Include="AssociationBetweenClasses_03\Composition\" />
+    <Folder Include="04\" />
+    <Folder Include="04\Exercises\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

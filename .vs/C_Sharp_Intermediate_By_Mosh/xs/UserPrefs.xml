@@ -1,28 +1,33 @@
 ﻿<Properties StartupConfiguration="{61C72238-8289-4043-AF39-BB245D5A9BC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Post.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/04/Exercises/Stack.cs">
     <Files>
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="35" Column="35" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="41" Column="10" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Constructors/Customer.cs" Line="9" Column="28" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/ObjectInitilizers/Person.cs" Line="7" Column="9" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/ObjectInitilizers/Person.cs" Line="7" Column="1" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Methods/Point.cs" Line="26" Column="10" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Methods/Calculator.cs" Line="4" Column="18" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Fields/Customer.cs" Line="13" Column="12" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Indexres/HttpCookie.cs" Line="9" Column="30" />
       <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/StopWatch.cs" Line="4" Column="27" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Post.cs" Line="8" Column="12" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Classes_02/Exercises/Post.cs" Line="12" Column="54" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/AssociationBetweenClasses_03/Inheritance/Presentationobject.cs" Line="18" Column="1" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/AssociationBetweenClasses_03/Inheritance/Text.cs" Line="11" Column="60" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/AssociationBetweenClasses_03/Composition/Logger.cs" Line="10" Column="6" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/AssociationBetweenClasses_03/Composition/DbMigrator.cs" Line="15" Column="46" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/AssociationBetweenClasses_03/Composition/Installer.cs" Line="14" Column="47" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/04/Exercises/Stack.cs" Line="6" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
             <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
-              <Node name="Classes_02" expanded="True">
-                <Node name="AccessModifiers" expanded="True" />
+              <Node name="04" expanded="True">
                 <Node name="Exercises" expanded="True">
-                  <Node name="Post.cs" selected="True" />
+                  <Node name="Stack.cs" selected="True" />
                 </Node>
-                <Node name="Properties" expanded="True" />
               </Node>
+              <Node name="Classes_02" expanded="True" />
             </Node>
           </Node>
         </State>
