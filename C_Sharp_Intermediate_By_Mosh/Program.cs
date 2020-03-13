@@ -2,6 +2,8 @@
 using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Composition;
 using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Inheritance;
 using C_Sharp_Intermediate_By_Mosh.Exercises;
+using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise01;
+using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise02;
 
 namespace C_Sharp_Intermediate_By_Mosh
 {
@@ -32,9 +34,39 @@ namespace C_Sharp_Intermediate_By_Mosh
             /*
              * 04_Inheritance Second Pillar of OOP
              */
-            Exercise_04_stack();
+            //Exercise_04_stack();
+
+            /*
+             * 05_Third Pillar of OOP
+             */
+            //Exercise_01();
+            //Exercise_02();
 
 
+
+
+
+
+
+        }
+
+        private static void Exercise_02()
+        {
+            var sql = new SqlConnection("SQL Connection");
+            var instruction = "Instruction";
+            var command = new DbCommand(sql, instruction);
+            command.Execute();
+        }
+
+        private static void Exercise_01()
+        {
+            var sql = new SqlConnection("SQL");
+            sql.Open();
+            sql.Close();
+
+            var oracle = new OracleConnection("Oracle");
+            oracle.Open();
+            oracle.Close();
         }
 
         private static void Exercise_04_stack()
