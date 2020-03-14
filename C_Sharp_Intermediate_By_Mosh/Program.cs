@@ -4,6 +4,7 @@ using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Inheritance;
 using C_Sharp_Intermediate_By_Mosh.Exercises;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise01;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise02;
+using C_Sharp_Intermediate_By_Mosh.TestAbility;
 
 namespace C_Sharp_Intermediate_By_Mosh
 {
@@ -39,18 +40,28 @@ namespace C_Sharp_Intermediate_By_Mosh
             /*
              * 05_Third Pillar of OOP
              */
-            //Exercise_01();
-            //Exercise_02();
+            //Exercise_01_DesignDbCOnnection();
+            //Exercise_02_DesignDbCommand();
 
+            /*
+             * 06_Interface_and_OOP
+             */
 
-
+            Lecture_033();
 
 
 
 
         }
 
-        private static void Exercise_02()
+        private static void Lecture_033()
+        {
+            var orderProcessor = new OrderProcessor(new ShippingCalculator());
+            var order = new Order { DatePlaced = DateTime.Now, TotalPrice = 100f };
+            orderProcessor.Process(order);
+        }
+
+        private static void Exercise_02_DesignDbCommand()
         {
             var sql = new SqlConnection("SQL Connection");
             var instruction = "Instruction";
@@ -58,7 +69,7 @@ namespace C_Sharp_Intermediate_By_Mosh
             command.Execute();
         }
 
-        private static void Exercise_01()
+        private static void Exercise_01_DesignDbCOnnection()
         {
             var sql = new SqlConnection("SQL");
             sql.Open();
