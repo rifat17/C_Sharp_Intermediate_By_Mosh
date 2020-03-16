@@ -1,31 +1,28 @@
 ﻿<Properties StartupConfiguration="{61C72238-8289-4043-AF39-BB245D5A9BC2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/Program.cs">
     <Files>
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="65" Column="32" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh.UnitTest/OrderProcessorTest.cs" Line="33" Column="85" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/TestAbility/OrderProcessor.cs" Line="16" Column="15" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/TestAbility/Order.cs" Line="13" Column="43" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/TestAbility/Shipment.cs" Line="7" Column="25" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/TestAbility/ShippingCalculator.cs" Line="10" Column="22" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/TestAbility/IShippingCalculator.cs" Line="1" Column="1" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/Extensibility034/ILogger.cs" Line="7" Column="37" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/Extensibility034/ConsoleLogger.cs" Line="13" Column="36" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/Extensibility034/FileLogger.cs" Line="19" Column="35" />
-      <File FileName="C_Sharp_Intermediate_By_Mosh/06/Extensibility034/DbMigrator.cs" Line="21" Column="66" />
+      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="79" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
             <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
-              <Node name="06" expanded="True">
-                <Node name="Extensibility034" expanded="True" />
+              <Node name="04" expanded="True">
+                <Node name="Exercises" expanded="True">
+                  <Node name="Solve" expanded="True" />
+                </Node>
               </Node>
-              <Node name="Classes_02" expanded="True" />
+              <Node name="06" expanded="True">
+                <Node name="E06" expanded="True">
+                  <Node name="Solve" expanded="True" />
+                </Node>
+                <Node name="Interfaces_Polymorphism036 " expanded="True" />
+              </Node>
               <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="C_Sharp_Intermediate_By_Mosh.UnitTest" expanded="True">
-              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
             </Node>
           </Node>
         </State>

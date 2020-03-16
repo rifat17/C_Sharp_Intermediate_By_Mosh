@@ -1,7 +1,7 @@
 ﻿using System;
 using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Composition;
 using C_Sharp_Intermediate_By_Mosh.AssociationBetweenClasses_03.Inheritance;
-using C_Sharp_Intermediate_By_Mosh.Exercises;
+using C_Sharp_Intermediate_By_Mosh.Exercises.Solve;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise01;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise02;
 using C_Sharp_Intermediate_By_Mosh.TestAbility;
@@ -52,11 +52,41 @@ namespace C_Sharp_Intermediate_By_Mosh
 
             //Lecture_034();
 
+            //Lecture_036();
+
+            Exercise038_DesigningWorkflowEngine();
 
 
 
 
 
+
+
+        }
+
+        private static void Exercise038_DesigningWorkflowEngine()
+        {
+            var workflow = new E06.Solve.WorkFlow();
+            var activity1 = new E06.Solve.VideoUploadActivity();
+            var activity2 = new E06.Solve.VideoReadyNotifyActivity();
+            var activity3 = new E06.Solve.SendEmailActivity();
+            var activity4 = new E06.Solve.DatabaseActivity();
+            workflow.AddActivity(activity1);
+            workflow.AddActivity(activity2);
+            workflow.AddActivity(activity3);
+            workflow.AddActivity(activity4);
+
+            var workflowEngine = new E06.Solve.WorkFlowEngine(workflow);
+            workflowEngine.Run();
+
+        }
+
+        private static void Lecture_036()
+        {
+            var encoder = new Interfaces_Polymorphism036.VideoEncoder();
+            encoder.RegisterNotificationChannel(new Interfaces_Polymorphism036.MainNotificationChannel());
+            encoder.RegisterNotificationChannel(new Interfaces_Polymorphism036.SmsNotificationChannel());
+            encoder.Encode(new Interfaces_Polymorphism036.Video());
         }
 
         private static void Lecture_034()

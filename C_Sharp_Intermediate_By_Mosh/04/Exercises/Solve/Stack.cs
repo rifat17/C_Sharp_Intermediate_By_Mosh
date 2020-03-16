@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-namespace C_Sharp_Intermediate_By_Mosh.Exercises
+namespace C_Sharp_Intermediate_By_Mosh.Exercises.Solve
 {
     public class Stack
     {

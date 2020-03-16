@@ -51,7 +51,6 @@
     <Compile Include="AssociationBetweenClasses_03\Composition\Logger.cs" />
     <Compile Include="AssociationBetweenClasses_03\Composition\DbMigrator.cs" />
     <Compile Include="AssociationBetweenClasses_03\Composition\Installer.cs" />
-    <Compile Include="04\Exercises\Stack.cs" />
     <Compile Include="05\Exercises\Exercise01\DbConnection.cs" />
     <Compile Include="05\Exercises\Exercise01\SqlConnection.cs" />
     <Compile Include="05\Exercises\Exercise01\OracleConnection.cs" />
@@ -65,6 +64,20 @@
     <Compile Include="06\Extensibility034\ConsoleLogger.cs" />
     <Compile Include="06\Extensibility034\FileLogger.cs" />
     <Compile Include="06\Extensibility034\DbMigrator.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \INotificationChannel.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \Message.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \MainNotificationChannel.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \SmsNotificationChannel.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \VideoEncoder.cs" />
+    <Compile Include="06\Interfaces_Polymorphism036 \Video.cs" />
+    <Compile Include="06\E06\Solve\DatabaseActivity.cs" />
+    <Compile Include="06\E06\Solve\IActivity.cs" />
+    <Compile Include="06\E06\Solve\SendEmailActivity.cs" />
+    <Compile Include="06\E06\Solve\VideoReadyNotifyActivity.cs" />
+    <Compile Include="06\E06\Solve\VideoUploadActivity.cs" />
+    <Compile Include="06\E06\Solve\WorkFlow.cs" />
+    <Compile Include="06\E06\Solve\WorkFlowEngine.cs" />
+    <Compile Include="04\Exercises\Solve\Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes_02\" />
@@ -89,6 +102,10 @@
     <Folder Include="06\" />
     <Folder Include="06\TestAbility\" />
     <Folder Include="06\Extensibility034\" />
+    <Folder Include="06\Interfaces_Polymorphism036 \" />
+    <Folder Include="06\E06\" />
+    <Folder Include="06\E06\Solve\" />
+    <Folder Include="04\Exercises\Solve\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
