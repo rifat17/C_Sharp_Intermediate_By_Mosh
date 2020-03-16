@@ -6,6 +6,7 @@ using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise01;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise02;
 using C_Sharp_Intermediate_By_Mosh.TestAbility;
 
+
 namespace C_Sharp_Intermediate_By_Mosh
 {
     class MainClass
@@ -47,11 +48,25 @@ namespace C_Sharp_Intermediate_By_Mosh
              * 06_Interface_and_OOP
              */
 
-            Lecture_033();
+            //Lecture_033();
+
+            Lecture_034();
 
 
 
 
+
+
+        }
+
+        private static void Lecture_034()
+        {
+            var dbMigrator = new Extensibility034.DbMigrator( new Extensibility034.FileLogger(
+            "/home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh" ) );
+            dbMigrator.Migrate();
+
+            dbMigrator = new Extensibility034.DbMigrator(new Extensibility034.ConsoleLogger());
+            dbMigrator.Migrate();
         }
 
         private static void Lecture_033()
