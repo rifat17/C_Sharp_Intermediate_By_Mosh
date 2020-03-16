@@ -50,7 +50,7 @@ namespace C_Sharp_Intermediate_By_Mosh
 
             //Lecture_033();
 
-            Lecture_034();
+            //Lecture_034();
 
 
 
@@ -61,8 +61,8 @@ namespace C_Sharp_Intermediate_By_Mosh
 
         private static void Lecture_034()
         {
-            var dbMigrator = new Extensibility034.DbMigrator( new Extensibility034.FileLogger(
-            "/home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh" ) );
+            var path = "/home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh";
+            var dbMigrator = new Extensibility034.DbMigrator( new Extensibility034.FileLogger( path ) );
             dbMigrator.Migrate();
 
             dbMigrator = new Extensibility034.DbMigrator(new Extensibility034.ConsoleLogger());
