@@ -3,3 +3,4 @@
 /home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh/obj/x86/Debug/C_Sharp_Intermediate_By_Mosh.csproj.CoreCompileInputs.cache
 /home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh/obj/x86/Debug/C_Sharp_Intermediate_By_Mosh.exe
 /home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh/obj/x86/Debug/C_Sharp_Intermediate_By_Mosh.pdb
+/home/hasib/Projects/C_Sharp_Intermediate_By_Mosh/C_Sharp_Intermediate_By_Mosh/obj/x86/Debug/C_Sharp_Intermediate_By_Mosh.csprojAssemblyReference.cache

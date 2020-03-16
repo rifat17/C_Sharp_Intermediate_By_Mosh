@@ -5,6 +5,7 @@ using C_Sharp_Intermediate_By_Mosh.Exercises.Solve;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise01;
 using C_Sharp_Intermediate_By_Mosh.Exercises.Exercise02;
 using C_Sharp_Intermediate_By_Mosh.TestAbility;
+using System.Threading;
 
 
 namespace C_Sharp_Intermediate_By_Mosh
@@ -54,7 +55,9 @@ namespace C_Sharp_Intermediate_By_Mosh
 
             //Lecture_036();
 
-            Exercise038_DesigningWorkflowEngine();
+            //Exercise038_DesigningWorkflowEngine();
+
+            StopWatchSolveByMosh();
 
 
 
@@ -62,6 +65,24 @@ namespace C_Sharp_Intermediate_By_Mosh
 
 
 
+        }
+
+        private static void StopWatchSolveByMosh()
+        {
+            var stopWatch = new Classes_02.Exercises.SolveByMosh.StopWatch();
+
+            for(var i = 0; i < 2; i++)
+            {
+                stopWatch.Start();
+
+                Thread.Sleep(1000);
+
+                stopWatch.Stop();
+
+                Console.WriteLine("Duration : {0}." , stopWatch.GetInterval());
+                Console.WriteLine("Press Enter to run the stopwatch again.");
+                Console.ReadLine();
+            }
         }
 
         private static void Exercise038_DesigningWorkflowEngine()

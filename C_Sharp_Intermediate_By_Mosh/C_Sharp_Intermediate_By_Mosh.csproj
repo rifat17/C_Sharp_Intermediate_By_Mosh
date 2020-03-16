@@ -78,6 +78,7 @@
     <Compile Include="06\E06\Solve\WorkFlow.cs" />
     <Compile Include="06\E06\Solve\WorkFlowEngine.cs" />
     <Compile Include="04\Exercises\Solve\Stack.cs" />
+    <Compile Include="Classes_02\Exercises\SolveByMosh\StopWatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes_02\" />
@@ -106,6 +107,7 @@
     <Folder Include="06\E06\" />
     <Folder Include="06\E06\Solve\" />
     <Folder Include="04\Exercises\Solve\" />
+    <Folder Include="Classes_02\Exercises\SolveByMosh\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

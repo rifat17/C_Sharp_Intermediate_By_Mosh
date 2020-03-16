@@ -1,29 +1,23 @@
 ﻿<Properties StartupConfiguration="{61C72238-8289-4043-AF39-BB245D5A9BC2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="C_Sharp_Intermediate_By_Mosh/Program.cs">
-    <Files>
-      <File FileName="C_Sharp_Intermediate_By_Mosh/Program.cs" Line="79" Column="48" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
             <Node name="C_Sharp_Intermediate_By_Mosh" expanded="True">
-              <Node name="04" expanded="True">
-                <Node name="Exercises" expanded="True">
-                  <Node name="Solve" expanded="True" />
-                </Node>
-              </Node>
               <Node name="06" expanded="True">
                 <Node name="E06" expanded="True">
                   <Node name="Solve" expanded="True" />
                 </Node>
-                <Node name="Interfaces_Polymorphism036 " expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="Classes_02" expanded="True">
+                <Node name="Exercises" expanded="True">
+                  <Node name="SolveByMosh" expanded="True" />
+                  <Node name="StopWatch.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
-            <Node name="C_Sharp_Intermediate_By_Mosh.UnitTest" expanded="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
+            <Node name="C_Sharp_Intermediate_By_Mosh.UnitTest" expanded="True" />
           </Node>
         </State>
       </Pad>
