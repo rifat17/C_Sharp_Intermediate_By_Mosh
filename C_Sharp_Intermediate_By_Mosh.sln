@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp_Intermediate_By_Mosh", "C_Sharp_Intermediate_By_Mosh\C_Sharp_Intermediate_By_Mosh.csproj", "{61C72238-8289-4043-AF39-BB245D5A9BC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp_Intermediate_By_Mosh.UnitTest", "C_Sharp_Intermediate_By_Mosh.UnitTest\C_Sharp_Intermediate_By_Mosh.UnitTest.csproj", "{C14547B8-EE08-402D-AE3F-94B629672F10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{61C72238-8289-4043-AF39-BB245D5A9BC2}.Debug|x86.Build.0 = Debug|x86
 		{61C72238-8289-4043-AF39-BB245D5A9BC2}.Release|x86.ActiveCfg = Release|x86
 		{61C72238-8289-4043-AF39-BB245D5A9BC2}.Release|x86.Build.0 = Release|x86
+		{C14547B8-EE08-402D-AE3F-94B629672F10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C14547B8-EE08-402D-AE3F-94B629672F10}.Debug|x86.Build.0 = Debug|Any CPU
+		{C14547B8-EE08-402D-AE3F-94B629672F10}.Release|x86.ActiveCfg = Release|Any CPU
+		{C14547B8-EE08-402D-AE3F-94B629672F10}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

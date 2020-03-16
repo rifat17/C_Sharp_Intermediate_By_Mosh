@@ -52,6 +52,19 @@
     <Compile Include="AssociationBetweenClasses_03\Composition\DbMigrator.cs" />
     <Compile Include="AssociationBetweenClasses_03\Composition\Installer.cs" />
     <Compile Include="04\Exercises\Stack.cs" />
+    <Compile Include="05\Exercises\Exercise01\DbConnection.cs" />
+    <Compile Include="05\Exercises\Exercise01\SqlConnection.cs" />
+    <Compile Include="05\Exercises\Exercise01\OracleConnection.cs" />
+    <Compile Include="05\Exercises\Exercise02\DbCommand.cs" />
+    <Compile Include="06\TestAbility\OrderProcessor.cs" />
+    <Compile Include="06\TestAbility\Order.cs" />
+    <Compile Include="06\TestAbility\Shipment.cs" />
+    <Compile Include="06\TestAbility\ShippingCalculator.cs" />
+    <Compile Include="06\TestAbility\IShippingCalculator.cs" />
+    <Compile Include="06\Extensibility034\ILogger.cs" />
+    <Compile Include="06\Extensibility034\ConsoleLogger.cs" />
+    <Compile Include="06\Extensibility034\FileLogger.cs" />
+    <Compile Include="06\Extensibility034\DbMigrator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes_02\" />
@@ -69,6 +82,13 @@
     <Folder Include="AssociationBetweenClasses_03\Composition\" />
     <Folder Include="04\" />
     <Folder Include="04\Exercises\" />
+    <Folder Include="05\" />
+    <Folder Include="05\Exercises\" />
+    <Folder Include="05\Exercises\Exercise01\" />
+    <Folder Include="05\Exercises\Exercise02\" />
+    <Folder Include="06\" />
+    <Folder Include="06\TestAbility\" />
+    <Folder Include="06\Extensibility034\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
